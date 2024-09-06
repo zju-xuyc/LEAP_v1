@@ -1,0 +1,34 @@
+video_name: m30_hd
+full_name: m30_hd
+dataset_group: m30
+w: 1200
+h: 720
+
+seed: 100
+start_frame: 2000
+end_frame: 9380
+fps: 25
+skip_frames: 75
+max_gap_time: 6
+min_gap_time: 2
+
+traj_dist_min: 0 # 轨迹最短长度
+thresh_len: 0     # fps*1.5
+max_len: 0       # fps*20
+dis_thresh: 800    # 确定分配轨迹距离的最小值
+difference_thresh: 0.002 # 判断两帧之间是否为同一帧
+differ_abs_thresh: 64
+
+iou_thresh: 0.5
+conf_thresh: 0.5
+stop_iou_thresh: 0.7
+intersect_overlap_thresh: 0.5
+image_thresh_score: 0.9
+# 最后1个是长时间静止的车辆
+ignore_region: []
+# 左侧出入口/上侧出入口/下右侧出入口/下左侧出入口/右侧出入口
+stop_area : [[102, 629,277,713],[296,622,600,714],[627,618,756,714],[866,620,1066,715],[555,82,789,169]]
+
+car_count: 3
+truck_count: 1
+bus_count: 0

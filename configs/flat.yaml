@@ -1,0 +1,33 @@
+video_name: flat 
+full_name: Flat_Creek_Inn
+dataset_group: blazeit
+w: 1920
+h: 1080
+seed: 100
+start_frame: 7200
+end_frame: 107900
+fps: 30
+skip_frames: 150
+max_gap_time: 7
+min_gap_time: 4
+
+traj_dist_min: 100 
+thresh_len: 45     # fps*1.5
+max_len: 600       # fps*20
+dis_thresh: 3200    # 确定分配轨迹距离的最小值
+difference_thresh: 0.000001 # 判断两帧之间是否为同一帧
+differ_abs_thresh: 32       # 用于判断相邻两帧相减后的帧差图确定不相似区域的阈值，越大宽容度越大，过滤的越狠
+
+iou_thresh: 0.4
+conf_thresh: 0.2
+stop_iou_thresh: 0.8
+intersect_overlap_thresh: 0.5
+image_thresh_score: 0.99
+ignore_region: []
+# 左侧出入口/上侧出入口/下右侧出入口/下左侧出入口/右侧出入口
+stop_area : [[350,601,460,675],[1120,633,1240,708],[390,750,524,888],[970,993,1190,1080],[1170,766,1455,908],[1429,920,1692,1080]]
+# 这个数据集需要的difference_thresh要48 不然跨帧间太相似了
+
+car_count: 3
+truck_count: 2
+bus_count: 0

@@ -1,0 +1,89 @@
+absl-py==2.1.0
+boltons @ file:///croot/boltons_1677628692245/work
+brotlipy==0.7.0
+cachetools==5.3.3
+certifi @ file:///croot/certifi_1683875369620/work/certifi
+cffi @ file:///croot/cffi_1670423208954/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+conda @ file:///croot/conda_1689269889729/work
+conda-content-trust @ file:///tmp/abs_5952f1c8-355c-4855-ad2e-538535021ba5h26t22e5/croots/recipe/conda-content-trust_1658126371814/work
+conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1685032319139/work/src
+conda-package-handling @ file:///croot/conda-package-handling_1685024767917/work
+conda_package_streaming @ file:///croot/conda-package-streaming_1685019673878/work
+contourpy==1.2.1
+cryptography @ file:///croot/cryptography_1686613057838/work
+cycler==0.12.1
+Cython==0.29.35
+cython-bbox==0.1.3
+faiss-gpu==1.7.0
+fonttools==4.51.0
+google-auth==2.29.0
+google-auth-oauthlib==0.4.6
+grpcio==1.63.0
+h5py==3.8.0
+idna @ file:///croot/idna_1666125576474/work
+importlib_metadata==7.1.0
+importlib_resources==6.4.0
+joblib==1.3.1
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpointer==2.1
+keras==2.11.0
+kiwisolver==1.4.5
+lap==0.4.0
+libmambapy @ file:///croot/mamba-split_1685993156657/work/libmambapy
+loguru==0.7.0
+Markdown==3.6
+MarkupSafe==2.1.5
+matplotlib==3.8.4
+motmetrics==1.4.0
+numpy==1.21.6
+nvidia-ml-py==12.535.161
+nvitop==1.3.2
+oauthlib==3.2.2
+opencv-python==4.7.0.72
+packaging @ file:///croot/packaging_1678965309396/work
+pandas==1.3.5
+Pillow==9.5.0
+pluggy @ file:///tmp/build/80754af9/pluggy_1648024445381/work
+prettytable==3.7.0
+protobuf==3.20.3
+psutil==5.9.8
+pyasn1==0.6.0
+pyasn1_modules==0.4.0
+pycosat @ file:///croot/pycosat_1666805502580/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///croot/pyopenssl_1677607685877/work
+pyparsing==3.1.2
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+python-dateutil==2.9.0.post0
+pytz==2024.1
+PyYAML==6.0.1
+requests @ file:///croot/requests_1682607517574/work
+requests-oauthlib==2.0.0
+rsa==4.9
+ruamel.yaml @ file:///croot/ruamel.yaml_1666304550667/work
+ruamel.yaml.clib @ file:///croot/ruamel.yaml.clib_1666302247304/work
+scikit-learn==1.0.2
+scipy==1.7.3
+seaborn==0.12.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+tabulate==0.9.0
+tensorboard==2.11.2
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+termcolor==2.3.0
+thop==0.1.1.post2209072238
+threadpoolctl==3.5.0
+toolz @ file:///croot/toolz_1667464077321/work
+torch==1.12.0+cu113
+torchvision==0.13.0+cu113
+tqdm @ file:///croot/tqdm_1679561862951/work
+typing_extensions==4.11.0
+ultralytics==8.0.124
+urllib3 @ file:///croot/urllib3_1686163155763/work
+wcwidth==0.2.13
+Werkzeug==3.0.3
+xmltodict==0.13.0
+yacs==0.1.8
+zipp==3.18.1
+zstandard @ file:///croot/zstandard_1677013143055/work

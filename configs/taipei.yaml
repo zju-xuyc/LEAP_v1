@@ -1,0 +1,34 @@
+video_name: taipei 
+full_name: Taipei_Hires
+dataset_group: blazeit
+w: 1280
+h: 720
+seed: 100
+start_frame: 7200
+end_frame: 106500
+fps: 30
+skip_frames: 150
+max_gap_time: 8
+min_gap_time: 3
+
+traj_dist_min: 100 
+thresh_len: 45     # fps*1.5
+max_len: 600       # fps*20
+dis_thresh: 1600    # 确定分配轨迹距离的最小值
+difference_thresh: 0.001 # 判断两帧之间是否为同一帧
+differ_abs_thresh: 96
+
+iou_thresh: 0.5
+conf_thresh: 0.5     # 0.5 会好一点
+stop_iou_thresh: 0.7
+intersect_overlap_thresh: 0.5
+image_thresh_score: 0.99
+ignore_region: [[380, 170, 437, 204],[1180, 230, 1204, 294],[317, 184, 366, 215],[560, 130, 636, 166]]
+# 左侧出入口/上侧出入口/下右侧出入口/下左侧出入口/右侧出入口
+stop_area : [[0,234,128,415],[0,443,183,720],[283,609,745,720],[1116,304,1280,437],[1120,0,1280,108],[1120,108,1280,301]]
+
+car_count: 3
+truck_count: 1
+bus_count: 2
+
+traffic_light: 30 
